@@ -1,7 +1,7 @@
 * {
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
+	-webkit;
+	-moz;
+	-ms;
 	box-sizing: border-box;
 }
 * {
@@ -9,10 +9,11 @@
 	color: #747775; 
 }
 hr{
-	width: 97.5%; 
+	width: 100%; 
 	color: #747775; 
 	background-color: #747775;
-	height: 5px; 
+	height: 5px;
+
 }
 img {
 	margin: 15px;
@@ -22,19 +23,26 @@ h1 {
 	font-size: 50px;
 	margin-bottom: 15px;
 	margin-top: 15px;
+	text-transform: uppercase;
 }
 h2{
 	font-weight: 400;
 	font-size: 35px;
 	margin-bottom: 10px;
-	margin-left: 2px
+	margin-left: 2px;
+	padding: 20px; 
+	color: #BCBBBB;
 }
 h3{
 	font-weight: 400;
+	text-transform: uppercase;
 }
 h4{
 	font-weight: 300;
 	font-size: 15px;
+}
+img{
+	border-radius: 10px
 }
 
 .grid {
@@ -44,7 +52,7 @@ h4{
 }
 .row{
 	width: 100%;
-	margin-bottom: 20 px;
+	margin-bottom: 20px;
 	display: flex;
 
 }
