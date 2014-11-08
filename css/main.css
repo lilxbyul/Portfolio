@@ -1,94 +1,130 @@
+
 * {
-	-webkit;
+    -webkit;
 	-moz;
 	-ms;
 	box-sizing: border-box;
-}
-* {
     font-family: 'Lato', sans-serif;
-	color: #747775; 
+    color: #747775;
 }
-hr{
-	width: 100%; 
-	color: #747775; 
-	background-color: #747775;
-	height: 5px;
 
+.logo{
+	width:100px;
+    height: auto;
 }
+
+hr {
+    width: 100%;
+    color: #747775;
+    background-color: #747775;
+    height: 5px;
+}
+
 img {
-	margin: 15px;
+    border-radius: 10px;
+    margin: 15px;
 }
+
 h1 {
-	font-weight: 100; 
-	font-size: 50px;
-	margin-bottom: 15px;
-	margin-top: 15px;
-	text-transform: uppercase;
+    font-weight: 100;
+    font-size: 50px;
+    margin: 15px, 0px, 15px, 0px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 15px;
 }
-h2{
-	font-weight: 400;
-	font-size: 35px;
-	margin-bottom: 10px;
-	margin-left: 2px;
-	padding: 20px; 
-	color: #BCBBBB;
+
+h2 {
+    font-weight: 400;
+    font-size: 35px;
+    margin: 0px, 0px, 10px, 2px;
+    padding: 20px;
+    color: #BCBBBB;
 }
-h3{
-	font-weight: 400;
-	text-transform: uppercase;
+
+h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 15px;
 }
-h4{
-	font-weight: 300;
-	font-size: 15px;
-}
-img{
-	border-radius: 10px
+
+h4 {
+    font-weight: 300;
+    font-size: 15px;
 }
 
 .grid {
-	margin: 0 auto;
-	max-width: 1200px;
-	width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
 }
-.row{
-	width: 100%;
-	margin-bottom: 20px;
-	display: flex;
 
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
 }
-.col-1{
-	width: 8.33%;
+
+.col-1 {
+    width: 8.33%;
 }
-.col-2{
-	width: 16.66%;
+
+.col-2 {
+    width: 16.66%;
 }
-.col-3{
-	width: 25%;
+
+.col-3 {
+    width: 25%;
 }
-.col-4{
-	width: 33.33%;
+
+.col-4 {
+    width: 33.33%;
 }
-.col-5{
-	width: 41.66%;
+
+.col-5 {
+    width: 41.66%;
 }
+
 .col-6 {
-	width: 50%;
+    width: 50%;
 }
+
 .col-7 {
-	width: 58.33%;
+    width: 58.33%;
 }
+
 .col-8 {
-	width: 66.66%;
+    width: 66.66%;
 }
+
 .col-9 {
-	width: 75%;
+    width: 75%;
 }
+
 .col-10 {
-	width: 83.33%;
+    width: 83.33%;
 }
+
 .col-11 {
-	width: 96.66%;
+    width: 96.66%;
 }
+
 .col-12 {
-	width: 100%;
+    width: 100%;
 }
+
+@media only screen and ( max-width: 700px) {
+    img {
+	   width: 100%;
+	   height: auto;
+    }
+    h4{
+        font-size: 8px;
+    }
+    h2{
+        font-size: 15px;
+    }
+}
+
