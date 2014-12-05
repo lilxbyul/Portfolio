@@ -1,9 +1,12 @@
 
 * {
-    -webkit-box-sizing: border-box;/* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;/* Firefox, other Gecko */
-    -ms-box-sizing: border-box;/* IE */
-	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
     color: #747775;
 }
 
@@ -17,35 +20,37 @@ img {
     border-radius: 10px;
     width: 98%;
     height: auto;
+    margin: 0 1% 0 1%;
 }
 
 h1 {
-    font: 100 50px 'Lato', sans-serif;
-    margin: 15px 0px 15px 0px;
+    font: 100 50px "Lato", sans-serif;
+    margin: 15px 0 15px 0;
     text-transform: uppercase;
     text-align: right;
     padding: 15px;
 }
 
 h2 {
-    font: 400 35px 'Lato', sans-serif;
-    margin: 0px 0px 10px 2px;
+    font: 400 35px "Lato", sans-serif;
+    margin: 0 0 10px 2px;
     padding: 20px;
-    color: #BCBBBB;
+    color: #bcbbbb;
     text-transform: uppercase;
 }
 
 h3 {
-    font: 400 15px 'Lato', sans-serif;
+    font: 400 15px "Lato", sans-serif;
     text-transform: uppercase;
     text-align: right;
     padding: 15px;
 }
 
 h4 {
-    font: 300 15px 'Lato', sans-serif;
+    font: 300 15px "Lato", sans-serif;
 }
 
+/* Content*/
 .logo {
     width: 100px;
     height: auto;
@@ -56,7 +61,7 @@ h4 {
     min-width: 300px;
 }
 
-/* Creates the grid, rows and columns*/
+/* Styles the grid and row and makes the row responsive to different devices. */
 .grid {
     margin: 0 auto;
     max-width: 1200px;
@@ -75,9 +80,3 @@ h4 {
     justify-content: space-between;
     -webkit-justify-content: space-between;
 }
-
-.col {
-    -webkit-flex: 0 1 auto;
-    flex: 0 1 auto;
-}
-
